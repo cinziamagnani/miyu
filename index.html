@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miyu Yamamoto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="styles.css">
@@ -13,122 +16,154 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
       $( function() {
-        $( "#draggable" ).draggable();
+        $( "#eyes" ).draggable();
       } );
       $( function() {
-        $( "#draggabletwo" ).draggable();
+        $( "#body" ).draggable();
       } );
       $( function() {
-        $( "#draggablethree" ).draggable();
+        $( "#ear" ).draggable();
       } );
       $( function() {
-        $( "#draggablefour" ).draggable();
+        $( "#book" ).draggable();
       } );
       $( function() {
-        $( "#draggablefive" ).draggable();
+        $( "#globe" ).draggable();
       } );
       $( function() {
-        $( "#draggablesix" ).draggable();
+        $( "#a" ).draggable();
       } );
       $( function() {
-        $( "#draggableseven" ).draggable();
+        $( "#stapler" ).draggable();
       } );
       $( function() {
-        $( "#draggableeight" ).draggable();
+        $( "#hand" ).draggable();
       } );
       $( function() {
-        $( "#draggablenine" ).draggable();
+        $( "#operations" ).draggable();
       } );
       $( function() {
-        $( "#draggableten" ).draggable();
+        $( "#paint" ).draggable();
       } );
       $( function() {
-        $( "#draggableeleven" ).draggable();
+        $( "#sponge" ).draggable();
       } );
       $( function() {
-        $( "#draggabletwelve" ).draggable();
+        $( "#bowl" ).draggable();
       } );
       $( function() {
-        $( "#draggablethirteen" ).draggable();
+        $( "#rice" ).draggable();
       } );
       $( function() {
-        $( "#draggablefourteen" ).draggable();
+        $( "#carrot" ).draggable();
       } );
       $( function() {
-        $( "#draggablefifteen" ).draggable();
+        $( "#rope" ).draggable();
       } );
       $( function() {
-        $( "#draggablesixteen" ).draggable();
+        $( "#nose" ).draggable();
       } );
       </script>
     
 </head>
 <body>
     <div class="container">
-        <div id="draggable" class="draggable">
+      <div id="eyes" class="draggable">
+        <div class="icon-container">
+          <img src="/imgs/eyes.png" alt="" class="icon big-icon">
+        <p>Visual</p>
+        </div>
+      </div>
+      <div id="body" class="draggable">
+        <div class="icon-container">
+        <img src="/imgs/body.png" alt="" class="icon">
+        <p>Body</p>
+      </div>
+      </div>
+      <div id="ear" class="draggable">
+        <div class="icon-container">
+        <img src="/imgs/ear.png" alt="" class="icon small-icon">
+        <p>Audio</p>
+      </div>
+      </div>
+        <div id="book" class="draggable">
+          <div class="icon-container">
           <img src="/imgs/book.png" alt="" class="icon">
           <p>About SEA Studios</p>
         </div>
-        <div id="draggabletwo" class="draggable">
+        </div>
+        <div id="globe" class="draggable">
+          <div class="icon-container">
           <img src="/imgs/globe.png" alt="" class="icon">
           <p>For Schools</p>
         </div>
-        <div id="draggablethree" class="draggable">
-          <img src="/imgs/a.png" alt="" class="icon big-icon">
-          <p>For Artists</p>
         </div>
-        <div id="draggablefour" class="draggable">
+        <div id="a" class="draggable">
+          <div class="icon-container">
+          <img src="/imgs/a.png" alt="" class="icon big-icon">
+          <p class="oblique">For Artists</p>
+        </div>
+        </div>
+        <div id="stapler" class="draggable">
+          <div class="icon-container">
+          <img src="/imgs/stapler.png" alt="" class="icon big-icon">
+          <p class="oblique">For Companies</p>
+        </div>
+        </div>
+        <div id="hand" class="draggable">
+          <div class="icon-container">
           <img src="/imgs/hand.png" alt="" class="icon">
           <p>Socially Engaged Art</p>
         </div>
-        <div id="draggablefive" class="draggable">
+        </div>
+        <div id="operations" class="draggable">
+          <div class="icon-container">
           <img src="/imgs/operations.png" alt="" class="icon">
           <p>Math x Art</p>
         </div>
-        <div id="draggablesix" class="draggable">
+        </div>
+        <div id="paint" class="draggable">
+          <div class="icon-container">
           <img src="/imgs/paint.png" alt="" class="icon big-icon">
           <p>Workshop / Event</p>
         </div>
-        <div id="draggableseven" class="draggable">
+        </div>
+        <div id="sponge" class="draggable">
+          <div class="icon-container">
           <img src="/imgs/sponge.png" alt="" class="icon big-icon">
           <p>Workshop / Event</p>
         </div>
-        <div id="draggableeight" class="draggable">
+        </div>
+        <div id="bowl" class="draggable">
+          <div class="icon-container">
           <img src="/imgs/bowl.png" alt="" class="icon big-icon">
           <p>Socially Engaged Art</p>
         </div>
-        <div id="draggablenine" class="draggable">
+        </div>
+        <div id="rice" class="draggable">
+          <div class="icon-container">
           <img src="/imgs/rice.png" alt="" class="icon">
           <p>Products</p>
         </div>
-        <div id="draggableten" class="draggable">
-          <img src="/imgs/carrot.png" alt="" class="icon big-icon">
-          <p>Natural Food Experience</p>
         </div>
-        <div id="draggableeleven" class="draggable">
+        <div id="carrot" class="draggable">
+          <div class="icon-container">
+          <img src="/imgs/carrot.png" alt="" class="icon big-icon">
+          <p>Japanese Natural Food</p>
+        </div>
+        </div>
+        <div id="rope" class="draggable">
+          <div class="icon-container">
           <img src="/imgs/rope.png" alt="" class="icon big-icon">
           <p>Collaboration</p>
         </div>
-        <div id="draggabletwelve" class="draggable">
-          <img src="/imgs/nose.png" alt="" class="icon big-icon">
+        </div>
+        <div id="nose" class="draggable">
+          <div class="icon-container">
+          <img src="/imgs/nose.png" alt="" class="icon middle-icon">
           <p>Smell</p>
         </div>
-        <div id="draggablethirteen" class="draggable">
-          <img src="/imgs/body.png" alt="" class="icon">
-          <p>Mappamondo</p>
-        </div>
-        <div id="draggablefourteen" class="draggable">
-          <img src="/imgs/eyes.png" alt="" class="icon big-icon">
-          <p>Visual</p>
-        </div>
-        <div id="draggablefifteen" class="draggable">
-          <img src="/imgs/ear.png" alt="" class="icon">
-          <p>Mappamondo</p>
-        </div>
-        <div id="draggablesixteen" class="draggable">
-          <img src="/imgs/stapler.png" alt="" class="icon big-icon">
-          <p>For Companies</p>
-        </div>
+        </div>        
         </div>
 </body>
 </html>
