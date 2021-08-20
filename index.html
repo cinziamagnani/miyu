@@ -63,6 +63,46 @@
       $( function() {
         $( "#nose" ).draggable();
       } );
+      $(document).ready(function(){
+  $("#book").dblclick(function(){
+    $( "#bookCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#bookCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#sponge").dblclick(function(){
+    $( "#spongeCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#spongeCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#operations").dblclick(function(){
+    $( "#operationsCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#operationsCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#body").dblclick(function(){
+    $( "#bodyCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#bodyCard" ).addClass( 'd-none' );
+  });
+});      
       </script>
     
 </head>
@@ -164,6 +204,41 @@
           <p>Smell</p>
         </div>
         </div>        
+        </div>
+        <div class="card green-card d-none" id="bookCard">
+          <p>
+            SEA studios is an inclusive platform where people meet various worlds through art experience. SEA studios aims for Re-Humanization. SEA studios provides art therapeutic workshops, communication building, coaching, and creative web-design to diversify and enrich people’s perspectives and lives. 
+          </p>
+          <p>
+▶For Schools ▶For Artists  ▶For Companies ▶For Individuals
+▶Workshop/Events ▶Web-Design
+</p>
+<p>
+<span class="keywords">
+  #art #web-design #education #food  
+</span>
+</p>
+<p class="japanese-text">
+SEA studiosとは、オランダと日本を拠点に活動するアートスタジオであり、アートな体験を通し多様な人々が交わるプラットフォームです。SEA studiosはRe-Humanization (人をもう一度人に）を理念に掲げ活動をしています。主には、アートアクティビティ個人やアーティスト向けのコーチング、アートセラピー、コミュニケーションビルディング、
+          </p>
+        </div>
+        <div class="card yellow-card d-none" id="spongeCard">
+          <p>
+            We offer you Art-based learning projects, workshops, or curriculum. We listen to your needs and design the best art programs for you. It is not teaching art techniques such as painting, but about how to foster students’ soft skills such as senses, self-esteem, observation skill, communication, expression, critical thinking, and problem solving through different topics.
+            ▶Topic Ex: SDGs, Diversity/Inclusivity, Environment, Human Rights, Politics, Food, Fashions etc.            
+          </p>
+        </div>
+        <div class="card purple-card d-none" id="operationsCard">
+          <p>
+            We offer you Art-based learning projects, workshops, or curriculum. We listen to your needs and design the best art programs for you. It is not teaching art techniques such as painting, but about how to foster students’ soft skills such as senses, self-esteem, observation skill, communication, expression, critical thinking, and problem solving through different topics.
+            ▶Topic Ex: SDGs, Diversity/Inclusivity, Environment, Human Rights, Politics, Food, Fashions etc.            
+          </p>
+        </div>
+        <div class="card pink-card d-none" id="bodyCard">
+          <p>
+            We offer you Art-based learning projects, workshops, or curriculum. We listen to your needs and design the best art programs for you. It is not teaching art techniques such as painting, but about how to foster students’ soft skills such as senses, self-esteem, observation skill, communication, expression, critical thinking, and problem solving through different topics.
+            ▶Topic Ex: SDGs, Diversity/Inclusivity, Environment, Human Rights, Politics, Food, Fashions etc.            
+          </p>
         </div>
 </body>
 </html>
