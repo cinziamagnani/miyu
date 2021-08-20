@@ -4,6 +4,7 @@ body {
     background-size: cover;
     width: 100vw;
     max-height: 100vh;
+    color: #F7A8D2;
 }
 
 .container {
@@ -19,4 +20,13 @@ body {
 
 .icon {
     width: 80px;
+}
+
+.big-icon {
+    width: 120px;
+}
+
+.draggable p {
+    font-size: 14px;
+    text-align: center;
 }
