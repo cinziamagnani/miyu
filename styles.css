@@ -160,10 +160,16 @@ p.oblique {
     top: 20vh;
 }
 
+#bowl {
+    position: absolute;
+    left: 17vw;
+    top: 53vh;
+}
+
 #a {
     position: absolute;
-    left: 21vw;
-    top: 55vh;
+    left: 25vw;
+    top: 51vh;
 }
 
 #stapler {
@@ -196,28 +202,22 @@ p.oblique {
     top: 50vh;
 }
 
-#bowl {
-    position: absolute;
-    left: 78vw;
-    top: 32vh;
-}
-
 #rice {
     position: absolute;
-    left: 84vw;
-    top: 45vh;
+    left: 78vw;
+    top: 36vh;
 }
 
 #carrot {
     position: absolute;
-    left: 88vw;
-    top: 48vh;
+    left: 85vw;
+    top: 45vh;
 }
 
 #rope {
     position: absolute;
-    left: 33vw;
-    top: 81vh;
+    left: 90vw;
+    top: 78vh;
 }
 
 #nose {
