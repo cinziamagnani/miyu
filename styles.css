@@ -7,6 +7,19 @@ body {
     color: #45433f;
 }
 
+h1 {
+    font-size: 14px !important;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    line-height: 18px;
+    position: absolute;
+    left: 2vw;
+    top: 90vh;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -162,14 +175,14 @@ p.oblique {
 
 #bowl {
     position: absolute;
-    left: 17vw;
-    top: 53vh;
+    left: 77vw;
+    top: 48vh;
 }
 
 #a {
     position: absolute;
-    left: 25vw;
-    top: 51vh;
+    left: 21vw;
+    top: 57vh;
 }
 
 #stapler {
@@ -180,25 +193,25 @@ p.oblique {
 
 #hand {
     position: absolute;
-    left: 40vw;
-    top: 41vh;
+    left: 41vw;
+    top: 44vh;
 }
 
 #operations {
     position: absolute;
     left: 47vw;
-    top: 48vh;
+    top: 52vh;
 }
 
 #paint {
     position: absolute;
     left: 55vw;
-    top: 48vh;
+    top: 49vh;
 }
 
 #sponge {
     position: absolute;
-    left: 67vw;
+    left: 65vw;
     top: 50vh;
 }
 

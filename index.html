@@ -64,6 +64,46 @@
         $( "#nose" ).draggable();
       } );
       $(document).ready(function(){
+  $("#eyes").dblclick(function(){
+    $( "#eyesCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#eyesCard" ).addClass( 'd-none' );
+  });
+});    
+$(document).ready(function(){
+  $("#ear").dblclick(function(){
+    $( "#earCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#earCard" ).addClass( 'd-none' );
+  });
+});  
+$(document).ready(function(){
+  $("#nose").dblclick(function(){
+    $( "#noseCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#noseCard" ).addClass( 'd-none' );
+  });
+});  
+$(document).ready(function(){
+  $("#rope").dblclick(function(){
+    $( "#ropeCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#ropeCard" ).addClass( 'd-none' );
+  });
+});  
+      $(document).ready(function(){
   $("#book").dblclick(function(){
     $( "#bookCard" ).removeClass( 'd-none' );
   });
@@ -71,6 +111,36 @@
 $(document).ready(function(){
   $("*").click(function(){
     $( "#bookCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#globe").dblclick(function(){
+    $( "#globeCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#globeCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#a").dblclick(function(){
+    $( "#aCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#aCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#stapler").dblclick(function(){
+    $( "#staplerCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#staplerCard" ).addClass( 'd-none' );
   });
 });
 $(document).ready(function(){
@@ -84,6 +154,46 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
+  $("#rice").dblclick(function(){
+    $( "#riceCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#riceCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#carrot").dblclick(function(){
+    $( "#carrotCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#carrotCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#bowl").dblclick(function(){
+    $( "#bowlCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#bowlCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#hand").dblclick(function(){
+    $( "#handCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#handCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
   $("#operations").dblclick(function(){
     $( "#operationsCard" ).removeClass( 'd-none' );
   });
@@ -91,6 +201,16 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("*").click(function(){
     $( "#operationsCard" ).addClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("#paint").dblclick(function(){
+    $( "#paintCard" ).removeClass( 'd-none' );
+  });
+});
+$(document).ready(function(){
+  $("*").click(function(){
+    $( "#paintCard" ).addClass( 'd-none' );
   });
 });
 $(document).ready(function(){
@@ -111,134 +231,194 @@ $(document).ready(function(){
       <div id="eyes" class="draggable">
         <div class="icon-container">
           <img src="/imgs/eyes.png" alt="" class="icon big-icon">
-        <p>Visual</p>
         </div>
       </div>
       <div id="body" class="draggable">
         <div class="icon-container">
         <img src="/imgs/body.png" alt="" class="icon">
-        <p>Body</p>
       </div>
       </div>
       <div id="ear" class="draggable">
         <div class="icon-container">
         <img src="/imgs/ear.png" alt="" class="icon small-icon">
-        <p>Audio</p>
       </div>
       </div>
         <div id="book" class="draggable">
           <div class="icon-container">
           <img src="/imgs/book.png" alt="" class="icon">
-          <p>About SEA Studios</p>
         </div>
         </div>
         <div id="globe" class="draggable">
           <div class="icon-container">
           <img src="/imgs/globe.png" alt="" class="icon">
-          <p>For Schools</p>
         </div>
         </div>
         <div id="a" class="draggable">
           <div class="icon-container">
           <img src="/imgs/a.png" alt="" class="icon big-icon">
-          <p class="oblique">For Artists</p>
         </div>
         </div>
         <div id="stapler" class="draggable">
           <div class="icon-container">
           <img src="/imgs/stapler.png" alt="" class="icon big-icon">
-          <p class="oblique">For Companies</p>
         </div>
         </div>
         <div id="hand" class="draggable">
           <div class="icon-container">
           <img src="/imgs/hand.png" alt="" class="icon">
-          <p>Socially Engaged Art</p>
         </div>
         </div>
         <div id="operations" class="draggable">
           <div class="icon-container">
           <img src="/imgs/operations.png" alt="" class="icon">
-          <p>Math x Art</p>
         </div>
         </div>
         <div id="paint" class="draggable">
           <div class="icon-container">
           <img src="/imgs/paint.png" alt="" class="icon big-icon">
-          <p>Workshop / Event</p>
         </div>
         </div>
         <div id="sponge" class="draggable">
           <div class="icon-container">
           <img src="/imgs/sponge.png" alt="" class="icon big-icon">
-          <p>Workshop / Event</p>
         </div>
         </div>
         <div id="bowl" class="draggable">
           <div class="icon-container">
-          <img src="/imgs/bowl.png" alt="" class="icon big-icon">
-          <p>Socially Engaged Art</p>
+          <img src="/imgs/bowlyellow.png" alt="" class="icon big-icon">
         </div>
         </div>
         <div id="rice" class="draggable">
           <div class="icon-container">
           <img src="/imgs/rice.png" alt="" class="icon">
-          <p>Products</p>
         </div>
         </div>
         <div id="carrot" class="draggable">
           <div class="icon-container">
           <img src="/imgs/carrot.png" alt="" class="icon big-icon">
-          <p>Japanese Natural Food</p>
         </div>
         </div>
+
+        <div>
+          <h1>
+            seastudios.info[at mark]gmail.com 
+            <br />
+            @ 2021 SEA Studios. All right reserved
+            <br />
+            @ Coded by Cinzia Magnani
+          </h1>
+        </div>
+
         <div id="rope" class="draggable">
           <div class="icon-container">
           <img src="/imgs/rope.png" alt="" class="icon big-icon">
-          <p>Collaboration</p>
         </div>
         </div>
         <div id="nose" class="draggable">
           <div class="icon-container">
           <img src="/imgs/nose.png" alt="" class="icon middle-icon">
-          <p>Smell</p>
         </div>
         </div>        
         </div>
+
+        <div class="card pink-card d-none" id="eyesCard">
+          <p>
+            What do you see? How do you see? Why do you see? Who are they? Why do you think so?
+          </p>
+          <p>
+            How does your sight look like? Do you have your own glass to see the world? How does it look like? How does it construct? Why did you get this glass?
+          </p>
+        </div>
+
         <div class="card green-card d-none" id="bookCard">
           <p>
-            SEA studios is an inclusive platform where people meet various worlds through art experience. SEA studios aims for Re-Humanization. SEA studios provides art therapeutic workshops, communication building, coaching, and creative web-design to diversify and enrich people’s perspectives and lives. 
-          </p>
-          <p>
-▶For Schools ▶For Artists  ▶For Companies ▶For Individuals
-▶Workshop/Events ▶Web-Design
-</p>
-<p>
-<span class="keywords">
-  #art #web-design #education #food  
-</span>
-</p>
-<p class="japanese-text">
-SEA studiosとは、オランダと日本を拠点に活動するアートスタジオであり、アートな体験を通し多様な人々が交わるプラットフォームです。SEA studiosはRe-Humanization (人をもう一度人に）を理念に掲げ活動をしています。主には、アートアクティビティ個人やアーティスト向けのコーチング、アートセラピー、コミュニケーションビルディング、
+            Is knowledge more honorable than experience? What does the definition of “smart”? People’s value does not change regardless anything. 
           </p>
         </div>
+
+        <div class="card green-card d-none" id="globeCard">
+          <p>
+            actually we are all from Africa.
+          </p>
+        </div>
+
+        <div class="card green-card d-none" id="aCard">
+          <p>
+            The peace comes from Curiosity, Appreciation, Respect, and Love. What does schools mean to you?
+          </p>
+        </div>
+
+        <div class="card green-card d-none" id="staplerCard">
+          <p>
+            Let’s put it together. 
+          </p>
+        </div>
+
         <div class="card yellow-card d-none" id="spongeCard">
           <p>
-            We offer you Art-based learning projects, workshops, or curriculum. We listen to your needs and design the best art programs for you. It is not teaching art techniques such as painting, but about how to foster students’ soft skills such as senses, self-esteem, observation skill, communication, expression, critical thinking, and problem solving through different topics.
-            ▶Topic Ex: SDGs, Diversity/Inclusivity, Environment, Human Rights, Politics, Food, Fashions etc.            
+            Curiosity is the best sponge.         
           </p>
         </div>
+
+        <div class="card yellow-card d-none" id="riceCard">
+          <p>
+            is a canvas for people to express themselves. By making, eating, and sharing the story, people are connected as a body/mind, as a human-being. There is no hierarchy or categorization. Categorization/Labeling enhance efficiency and productivity but hasn’t it been the tool to encourage the polarization/discrimination?        
+          </p>
+        </div>
+
+        <div class="card yellow-card d-none" id="carrotCard">
+          <p>
+            Everyone has different body/mind/character/habit. Symptom cannot determine the solution. We are consisted of what we eat, what we think, and how we feel. We are a part of nature. We are lived by the nature. 
+            Problem solving is useful and efficient. However, it misses its condition        
+          </p>
+        </div>
+
+        <div class="card yellow-card d-none" id="bowlCard">
+          <p>
+            Itadakimasu! Thank you for people who made the food, the nature that produces the food, and all the elements for me being able to eat. Good food brings people’s smile, bring people come together without any hierarchy.
+          </p>
+        </div>
+
+        <div class="card purple-card d-none" id="handCard">
+          <p>
+            there is no other better way than learning by doing/touching/experiencing.         
+          </p>
+        </div>
+
         <div class="card purple-card d-none" id="operationsCard">
           <p>
-            We offer you Art-based learning projects, workshops, or curriculum. We listen to your needs and design the best art programs for you. It is not teaching art techniques such as painting, but about how to foster students’ soft skills such as senses, self-esteem, observation skill, communication, expression, critical thinking, and problem solving through different topics.
-            ▶Topic Ex: SDGs, Diversity/Inclusivity, Environment, Human Rights, Politics, Food, Fashions etc.            
+            We are actually a family.           
           </p>
         </div>
+
+        <div class="card purple-card d-none" id="paintCard">
+          <p>
+            visualization is just a translation of what you see, taste, smell, think, and feel.          
+          </p>
+        </div>
+        
         <div class="card pink-card d-none" id="bodyCard">
           <p>
-            We offer you Art-based learning projects, workshops, or curriculum. We listen to your needs and design the best art programs for you. It is not teaching art techniques such as painting, but about how to foster students’ soft skills such as senses, self-esteem, observation skill, communication, expression, critical thinking, and problem solving through different topics.
-            ▶Topic Ex: SDGs, Diversity/Inclusivity, Environment, Human Rights, Politics, Food, Fashions etc.            
+            Body and Mind are one. Those are not able to separate. Listening to your body is listening to your mind. What does your body say to you?            
           </p>
+        </div>
+        <div class="card pink-card d-none" id="earCard">
+          <p>
+            What do you hear? What do you want to hear? What does your body/heart say? What does the earth say? What does the universe say to you?
+          </p>
+        </div>
+        <div class="card pink-card d-none" id="noseCard">
+          <p>
+            Smell brings us back to the memory.  Imagine your “sweet” memory. 
+          </p>
+          <p>
+            What kind of smell did you have? What kind of memory does it have? What scenery 
+          </p>
+        </div>
+        <div class="card pink-card d-none" id="ropeCard">
+          <p>
+            Why do you want to be connected? How do you want to be connected? What does connection bring to you? Are you connected with yourself?
+           </p>  
         </div>
 </body>
 </html>
