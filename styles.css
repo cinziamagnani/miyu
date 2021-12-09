@@ -25,6 +25,10 @@ h1 {
     flex-direction: row;
 }
 
+.media-par {
+    display: none;
+}
+
 .draggable { 
     width: 50px; 
     height: 50px; 
@@ -237,4 +241,30 @@ p.oblique {
     position: absolute;
     left: 62vw;
     top: 82vh;
+}
+
+@media (max-width: 800px){
+    .container {
+        display: none;
+    }
+    body {
+        background-image: url(/imgs/horizonal.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        max-height: 100vh;
+        color: #45433f;
+    }
+    .media-par {
+        display: block;
+        text-align: center;
+        padding-top: 200px;
+        background-color: rgba(220, 212, 230, 0.7) !important;
+    backdrop-filter: blur( 8px );
+-webkit-backdrop-filter: blur( 8px );
+    padding: 40px;
+    margin: 150px auto;
+    max-width: 600px;
+    border-radius: 20px !important;
+    }
 }
